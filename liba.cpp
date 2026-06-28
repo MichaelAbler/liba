@@ -4,7 +4,7 @@
 
 std::string depa() {
     std::string result = "... called A ";
-    result += depf();
+    result += depf(3);
     return result;
 }
 
